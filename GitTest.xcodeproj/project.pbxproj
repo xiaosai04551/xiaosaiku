@@ -15,6 +15,7 @@
 		32FCBB2420521C0300C66E64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FCBB2320521C0300C66E64 /* main.m */; };
 		32FCBB2E20521C0300C66E64 /* GitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FCBB2D20521C0300C66E64 /* GitTestTests.m */; };
 		32FCBB3920521C0300C66E64 /* GitTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FCBB3820521C0300C66E64 /* GitTestUITests.m */; };
+		32FCBB4820522D0600C66E64 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FCBB4720522D0600C66E64 /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		32FCBB3420521C0300C66E64 /* GitTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32FCBB3820521C0300C66E64 /* GitTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTestUITests.m; sourceTree = "<group>"; };
 		32FCBB3A20521C0300C66E64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32FCBB4620522D0600C66E64 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		32FCBB4720522D0600C66E64 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				32FCBB1F20521C0300C66E64 /* LaunchScreen.storyboard */,
 				32FCBB2220521C0300C66E64 /* Info.plist */,
 				32FCBB2320521C0300C66E64 /* main.m */,
+				32FCBB4620522D0600C66E64 /* MainViewController.h */,
+				32FCBB4720522D0600C66E64 /* MainViewController.m */,
 			);
 			path = GitTest;
 			sourceTree = "<group>";
@@ -268,6 +273,7 @@
 				32FCBB1920521C0300C66E64 /* ViewController.m in Sources */,
 				32FCBB2420521C0300C66E64 /* main.m in Sources */,
 				32FCBB1620521C0300C66E64 /* AppDelegate.m in Sources */,
+				32FCBB4820522D0600C66E64 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
